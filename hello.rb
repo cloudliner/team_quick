@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 require 'sinatra'
 
 get '/' do
@@ -12,4 +13,8 @@ end
 get '/images/:file.:ext' do |file, ext|
   content_type ext
   send_file "images/#{file}.#{ext}"
+end
+
+get '/meeeA' do
+ erb :meeeA
 end
