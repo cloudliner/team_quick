@@ -22,3 +22,7 @@ end
 get '/takahashiko' do 
  erb :takahashiko
 end
+
+get '/prof_hohda' do 
+ erb :prof_hohda
+end
