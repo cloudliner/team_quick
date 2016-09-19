@@ -15,6 +15,8 @@ get '/' do
     <li>住所　：　千葉県 </li>
     <li>星座　：　しし座 </li>
   </ul>
+  <h2><a href="/">戻る</a></h2>
+
 </body>
 </html>
 EOS
