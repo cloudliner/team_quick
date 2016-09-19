@@ -18,3 +18,7 @@ end
 get '/meeeA' do
  erb :meeeA
 end
+
+get '/takahashiko' do 
+ erb :takahashiko
+end
