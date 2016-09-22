@@ -1,8 +1,3 @@
-require 'sinatra'
-
-get '/' do
-<<EOS
-<!DOCTYPE html>
 <html>
 <head>
   <title>Kosei's profile</title>
@@ -14,10 +9,8 @@ get '/' do
     <li>名前：高橋 幸星</li>
     <li>年齢：40歳</li>
     <li>出身地：岩手県北上市</li>
-    <li>私の似顔絵：<img border="0" src="../images/prof_takahashi.jpg" width="480" height="640" alt="イラスト1"></li>
+    <li>私の似顔絵：<br><img border="0" src="../images/prof_takahashi.jpg" width="480" height="640" alt="イラスト1"></li>
   </ul>
-  <h2><a href="./index.erb">戻る</a></h2>
+  <p><a href="./index.erb">戻る</p>
 </body>
 </html>
-EOS
-end
